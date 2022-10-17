@@ -64,7 +64,7 @@ public class Main {
 
 
         /**
-         * Creacioon de un objeto con la clase GraphicCard
+         * Creacion de un objeto con la clase GraphicCard
          */
 
         GraphicCard msiGeForce = new GraphicCard();
@@ -76,5 +76,13 @@ public class Main {
         msiGeForce.setClockSpeed("1710 MHz");
         msiGeForce.setMemoryType("DDR4");
 
+        System.out.println("");
+        System.out.println("Primer procesador:");
+        System.out.println(msiGeForce.getId());
+        System.out.println(msiGeForce.getBrand());
+        System.out.println(msiGeForce.getModel());
+        System.out.println(msiGeForce.getMemory());
+        System.out.println(msiGeForce.getClockSpeed());
+        System.out.println(msiGeForce.getMemoryType());
     }
 }
