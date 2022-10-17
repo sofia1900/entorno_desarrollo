@@ -1,9 +1,7 @@
 package com.sofiajimlap.pccomponentes;
 
-/**
- *  Clase Procesador */
+public class Processor {
 
-public class Procesador {
     /**
      * Atributos, propiedades, variables, estado
      */

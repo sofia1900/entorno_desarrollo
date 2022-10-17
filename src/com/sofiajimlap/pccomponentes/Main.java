@@ -4,7 +4,7 @@ public class Main {
     public static void main (String[] args){
         System.out.println("Inicializando...");
 
-        Procesador amd = new Procesador();
+        Processor amd = new Processor();
 
         /**
          * Codigo a ejecutar por un administrativo de la empresa.
@@ -15,15 +15,16 @@ public class Main {
         amd.setBrand("Raizen 6400");
         amd.setFabricante("AMD");
 
+        System.out.println("");
         System.out.println("Primer procesador:");
         System.out.println(amd.getBrand());
         System.out.println(amd.getFabricante());
 
         /**
-         * CREACION DE OTRO PROCESADOR (otro objeto sobre la clase procesador)
+         * CREACION DE OTROS PRCOCESADORES (otro objeto sobre la clase procesador)
          */
 
-        Procesador pentum = new Procesador();
+        Processor pentum = new Processor();
         pentum.setId(2);
         pentum.setBrand("PENTUM 500");
         pentum.setFabricante("PENTUM");
@@ -33,7 +34,7 @@ public class Main {
         System.out.println(pentum.getBrand());
         System.out.println(pentum.getFabricante());
 
-        Procesador intel = new Procesador();
+        Processor intel = new Processor();
         intel.setId(2);
         intel.setBrand("INTEL i7");
         intel.setFabricante("INTEL");
@@ -84,5 +85,27 @@ public class Main {
         System.out.println(msiGeForce.getMemory());
         System.out.println(msiGeForce.getClockSpeed());
         System.out.println(msiGeForce.getMemoryType());
+
+
+        /**
+         * Creacion de un objeto con la clase RandomAccessMemory
+         */
+
+        RandomAccessMemory kingstom = new RandomAccessMemory();
+        kingstom.setId (1);
+        kingstom.setBrand("");
+        kingstom.setModel("");
+        kingstom.setSpeed("");
+        kingstom.setCapacity("");
+        kingstom.getNumCycles();
+
+        System.out.println("");
+        System.out.println("Primera RAM:");
+        System.out.println(kingstom.getId());
+        System.out.println(kingstom.getBrand());
+        System.out.println(kingstom.getModel());
+        System.out.println(kingstom.getCapacity());
+        System.out.println(kingstom.getSpeed());
+        System.out.println(kingstom.getNumCycles());
     }
 }
