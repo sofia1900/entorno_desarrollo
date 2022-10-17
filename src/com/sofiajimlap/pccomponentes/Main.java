@@ -61,5 +61,20 @@ public class Main {
         System.out.println(asus.getModel());
         System.out.println(asus.getNumPorts());
         System.out.println(asus.getSize());
+
+
+        /**
+         * Creacioon de un objeto con la clase GraphicCard
+         */
+
+        GraphicCard msiGeForce = new GraphicCard();
+        msiGeForce.setId(1);
+        msiGeForce.setBrand("MSI");
+        msiGeForce.setModel("GeForce RTX");
+        msiGeForce.setType ("RTX");
+        msiGeForce.setMemory("6 GB");
+        msiGeForce.setClockSpeed("1710 MHz");
+        msiGeForce.setMemoryType("DDR4");
+
     }
 }
