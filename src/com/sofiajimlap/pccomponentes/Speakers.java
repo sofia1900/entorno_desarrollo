@@ -1,6 +1,6 @@
 package com.sofiajimlap.pccomponentes;
 
-public class soundCard {
+public class Speakers {
 
     /**
      * Atributos, propiedades, variables, estado
@@ -9,9 +9,10 @@ public class soundCard {
     private Integer id;
     private String brand;
     private String model;
-    private Integer numConnectors;
-    private String amplification;
-    private String snr;
+    private String connection;
+    private Integer decibels;
+    private String size;
+
 
     /**
      * Métodos
@@ -36,19 +37,20 @@ public class soundCard {
     }
     public void setModel(String brand){this.model = model;}
 
-    public Integer getNumConnectors () {return numConnectors;}
-    public void setNumConnectors (Integer numConnectors){this.numConnectors = numConnectors;}
-
-    public String getAmplification(){
-        return amplification;
+    public String getConnection(){
+        return connection;
     }
-    public void setAmplification(String amplification){
-        this.amplification = amplification;
-    }
+    public void setConnection(String connection){this.connection = connection;}
 
-    public String getSnr(){
-        return snr;
+    public Integer getDecibels(){
+        return decibels;
     }
-    public void setSnr(String snr){this.snr = snr;}
+    public void setDecibels(Integer decibels){this.decibels = decibels;}
 
+    public String getSize(){
+        return size;
+    }
+    public void setSize(String size){
+        this.size = size;
+    }
 }
