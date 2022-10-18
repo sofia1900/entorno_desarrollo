@@ -13,12 +13,10 @@ public class Main {
 
         amd.setId(1);
         amd.setBrand("Raizen 6400");
-        amd.setFabricante("AMD");
 
         System.out.println("");
         System.out.println("Primer procesador:");
         System.out.println(amd.getBrand());
-        System.out.println(amd.getFabricante());
 
         /**
          * CREACION DE OTROS PRCOCESADORES (otro objeto sobre la clase procesador)
@@ -27,22 +25,18 @@ public class Main {
         Processor pentum = new Processor();
         pentum.setId(2);
         pentum.setBrand("PENTUM 500");
-        pentum.setFabricante("PENTUM");
 
         System.out.println("");
         System.out.println("Segundo procesador:");
         System.out.println(pentum.getBrand());
-        System.out.println(pentum.getFabricante());
 
         Processor intel = new Processor();
         intel.setId(2);
         intel.setBrand("INTEL i7");
-        intel.setFabricante("INTEL");
 
         System.out.println("");
         System.out.println("Tercer procesador:");
         System.out.println(intel.getBrand());
-        System.out.println(intel.getFabricante());
 
         /**
          * Creacion de un objeto con la clase MotherBoard

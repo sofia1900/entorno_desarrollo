@@ -7,7 +7,10 @@ public class Processor {
      */
     private Integer id;
     private String brand;
-    private String fabricante;
+    private String model;
+    private Integer numNucleus;
+    private String speed;
+    private String memory;
 
     /**
      * Metodos, funciones, comportamiento
@@ -18,17 +21,32 @@ public class Processor {
     public void setId(Integer id){
         this.id = id;
     }
+
     public String getBrand(){
         return brand;
     }
     public void setBrand(String brand){
         this.brand = brand;
     }
-    public String getFabricante(){
-        return fabricante;
+
+    public String getModel(){return model;}
+    public void setModel (String model){this.model = model;}
+
+    public Integer getNumNucleus(){
+        return numNucleus;
     }
-    public void setFabricante(String fabricante){
-        this.fabricante = fabricante;
+    public void setNumNucleus(Integer numNucleus){
+        this.numNucleus = numNucleus;
+    }
+
+    public String getSpeed(){return speed;}
+    public void setSpeed (String model){this.speed = speed;}
+
+    public String getMemory(){
+        return memory;
+    }
+    public void setMemory(String memory){
+        this.memory = memory;
     }
 
 }
