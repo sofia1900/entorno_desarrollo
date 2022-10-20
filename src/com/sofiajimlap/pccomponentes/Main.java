@@ -17,15 +17,17 @@ public class Main {
         amd.setNumNucleus(6);
         amd.setSpeed("4.2GHz");
         amd.setMemory("DDR4");
-
+        amd.setPrice(137.99f);
 
         System.out.println("");
         System.out.println("Primer procesador:");
-        System.out.println(amd.getBrand());
-        System.out.println(amd.getModel());
-        System.out.println(amd.getNumNucleus());
-        System.out.println(amd.getSpeed());
-        System.out.println(amd.getMemory());
+        System.out.println("ID: " + amd.getId());
+        System.out.println("MARCA: " + amd.getBrand());
+        System.out.println("MODELO: " + amd.getModel());
+        System.out.println("NUMERO DE NUCLEOS: " + amd.getNumNucleus());
+        System.out.println("VELOCIDAD: " + amd.getSpeed());
+        System.out.println("MEMORIA: " + amd.getMemory());
+        System.out.println("PRECIO: " + amd.getPrice());
 
 
         /**
@@ -39,16 +41,18 @@ public class Main {
         intel.setNumNucleus(2);
         intel.setSpeed("4.1 GHz");
         intel.setMemory("DDR4-2666");
+        intel.setPrice(120.69f);
 
 
         System.out.println("");
         System.out.println("Segundo procesador:");
-        System.out.println(intel.getBrand());
-        System.out.println(intel.getBrand());
-        System.out.println(intel.getModel());
-        System.out.println(intel.getNumNucleus());
-        System.out.println(intel.getSpeed());
-        System.out.println(intel.getMemory());
+        System.out.println("ID: " + intel.getBrand());
+        System.out.println("MARCA: " + intel.getBrand());
+        System.out.println("MODELO: " + intel.getModel());
+        System.out.println("NUMERO DE NUCLEOS: " + intel.getNumNucleus());
+        System.out.println("VELOCIDAD: " + intel.getSpeed());
+        System.out.println("MEMORIA: " + intel.getMemory());
+        System.out.println("PRECIO: " + intel.getPrice());
 
         /**
          * Creacion de un objeto con la clase MotherBoard
@@ -60,14 +64,16 @@ public class Main {
         asus.setNumPorts(3);
         asus.setModel("ASUS TUF GAMING B550-PLUS WIFI II");
         asus.setSize("30 cm");
+        asus.setPrice(120.90f);
 
         System.out.println("");
         System.out.println("Primera placa base:");
-        System.out.println(asus.getId());
-        System.out.println(asus.getBrand());
-        System.out.println(asus.getModel());
-        System.out.println(asus.getNumPorts());
-        System.out.println(asus.getSize());
+        System.out.println("ID: " + asus.getId());
+        System.out.println("MARCA: " + asus.getBrand());
+        System.out.println("MODELO: " + asus.getModel());
+        System.out.println("NUMERO DE PUERTOS: " + asus.getNumPorts());
+        System.out.println("TAMAÑO: " + asus.getSize());
+        System.out.println("PRECIO: " + asus.getPrice());
 
 
         /**
@@ -81,37 +87,41 @@ public class Main {
         kingstom.setSpeed("3200MHz");
         kingstom.setCapacity("2x16GB");
         kingstom.setLatency(16);
+        kingstom.setPrice(118.99f);
 
         System.out.println("");
         System.out.println("Primera RAM:");
-        System.out.println(kingstom.getId());
-        System.out.println(kingstom.getBrand());
-        System.out.println(kingstom.getModel());
-        System.out.println(kingstom.getCapacity());
-        System.out.println(kingstom.getSpeed());
-        System.out.println(kingstom.getLatency());
+        System.out.println("ID: " + kingstom.getId());
+        System.out.println("MARCA: " + kingstom.getBrand());
+        System.out.println("MODELO: " + kingstom.getModel());
+        System.out.println("CAPACIDAD: " + kingstom.getCapacity());
+        System.out.println("VELOCIDAD: " + kingstom.getSpeed());
+        System.out.println("LATENCIA: " + kingstom.getLatency());
+        System.out.println("PRECIO: " + kingstom.getPrice());
 
 
         /**
          * Creacion de un objeto con la clase Case
          */
 
-        Case Kazumi = new Case();
-        Kazumi.setId (1);
-        Kazumi.setBrand("L-Link");
-        Kazumi.setModel("Kazumi USB 3.0 con Ventana");
-        Kazumi.setNumFans(4);
-        Kazumi.setFormFactor("ATX");
-        Kazumi.setSize("200 x 460 x 420 mm");
+        Case kazumi = new Case();
+        kazumi.setId (1);
+        kazumi.setBrand("L-Link");
+        kazumi.setModel("Kazumi USB 3.0 con Ventana");
+        kazumi.setNumFans(4);
+        kazumi.setFormFactor("ATX");
+        kazumi.setSize("200 x 460 x 420 mm");
+        kazumi.setPrice(38.99f);
 
         System.out.println("");
         System.out.println("Primera caja:");
-        System.out.println(Kazumi.getId());
-        System.out.println(Kazumi.getBrand());
-        System.out.println(Kazumi.getModel());
-        System.out.println(Kazumi.getNumFans());
-        System.out.println(Kazumi.getFormFactorMaterial());
-        System.out.println(Kazumi.getSize());
+        System.out.println("ID: " + kazumi.getId());
+        System.out.println("MARCA: " + kazumi.getBrand());
+        System.out.println("MODELO: " + kazumi.getModel());
+        System.out.println("NUMERO DE VENTILADORES: " + kazumi.getNumFans());
+        System.out.println("FACTOR DE FORMA PERMITIDO: " + kazumi.getFormFactor());
+        System.out.println("TAMAÑO: " + kazumi.getSize());
+        System.out.println("PRECIO: " + kazumi.getPrice());
 
         /**
          * Creacion de un objeto con la clase Fan
@@ -124,15 +134,17 @@ public class Main {
         nfortec.setSize ("154mm x 123mm x 106mm");
         nfortec.setNoiseLevel("26.3dB(A)±10%");
         nfortec.setSupportType("AM4");
+        nfortec.setPrice(49.95f);
 
         System.out.println("");
         System.out.println("Primer ventilador:");
-        System.out.println(nfortec.getId());
-        System.out.println(nfortec.getBrand());
-        System.out.println(nfortec.getModel());
-        System.out.println(nfortec.getSize());
-        System.out.println(nfortec.getNoiseLevel());
-        System.out.println(nfortec.getSupportType());
+        System.out.println("ID: " + nfortec.getId());
+        System.out.println("MARCA: " + nfortec.getBrand());
+        System.out.println("MODELO: " + nfortec.getModel());
+        System.out.println("TAMAÑO: " + nfortec.getSize());
+        System.out.println("NIVEL DE RUIDO: " + nfortec.getNoiseLevel());
+        System.out.println("TIPO: " + nfortec.getSupportType());
+        System.out.println("PRECIO: " + nfortec.getPrice());
 
         /**
          * Creacion de un objeto con la clase HardDisk
@@ -144,14 +156,16 @@ public class Main {
         speedster.setModel("SN770");
         speedster.setType ("SDD");
         speedster.setCapacity("1T");
+        speedster.setPrice(87.99f);
 
         System.out.println("");
         System.out.println("Primer Disco duro:");
-        System.out.println(speedster.getId());
-        System.out.println(speedster.getBrand());
-        System.out.println(speedster.getModel());
-        System.out.println(speedster.getType());
-        System.out.println(speedster.getCapacity());
+        System.out.println("ID: " + speedster.getId());
+        System.out.println("MARCA: " + speedster.getBrand());
+        System.out.println("MODELO: " + speedster.getModel());
+        System.out.println("TIPO: " + speedster.getType());
+        System.out.println("CAPACIDAD: " + speedster.getCapacity());
+        System.out.println("PRECIO: " + speedster.getPrice());
 
         /**
          * Creacion de un objeto con la clase PowerSupply
@@ -163,14 +177,16 @@ public class Main {
         tempest.setModel("PSU X");
         tempest.setPower ("750W");
         tempest.setQuality("80+ Bronce");
+        tempest.setPrice(32.98f);
 
         System.out.println("");
         System.out.println("Primera Fuente de alimentación:");
-        System.out.println(tempest.getId());
-        System.out.println(tempest.getBrand());
-        System.out.println(tempest.getModel());
-        System.out.println(tempest.getPower());
-        System.out.println(tempest.getQuality());
+        System.out.println("ID: " + tempest.getId());
+        System.out.println("MARCA: " + tempest.getBrand());
+        System.out.println("MODELO: " + tempest.getModel());
+        System.out.println("POTENCIA: " + tempest.getPower());
+        System.out.println("CUALIDAD: " + tempest.getQuality());
+        System.out.println("PRECIO: " + tempest.getPrice());
 
         /**
          * Creacion de un objeto con la clase GraphicCard
@@ -184,15 +200,17 @@ public class Main {
         msiGeForce.setMemory("6 GB");
         msiGeForce.setClockSpeed("1710 MHz");
         msiGeForce.setMemoryType("DDR4");
+        msiGeForce.setPrice(479.90f);
 
         System.out.println("");
         System.out.println("Primera Tarjeta gráfica:");
-        System.out.println(msiGeForce.getId());
-        System.out.println(msiGeForce.getBrand());
-        System.out.println(msiGeForce.getModel());
-        System.out.println(msiGeForce.getMemory());
-        System.out.println(msiGeForce.getClockSpeed());
-        System.out.println(msiGeForce.getMemoryType());
+        System.out.println("ID: " + msiGeForce.getId());
+        System.out.println("MARCA: " + msiGeForce.getBrand());
+        System.out.println("MODELO: " + msiGeForce.getModel());
+        System.out.println("MEMORIA: " + msiGeForce.getMemory());
+        System.out.println("VELOCIDAD DE RELOJ: " + msiGeForce.getClockSpeed());
+        System.out.println("TIPO DE MEMORIA: " + msiGeForce.getMemoryType());
+        System.out.println("PRECIO: " + msiGeForce.getPrice());
 
         /**
          * Creacion de un objeto con la clase SoundCard
@@ -205,15 +223,17 @@ public class Main {
         asusSonar.setConnector("PCIe");
         asusSonar.setAmplification(" 300ohm");
         asusSonar.setSnr("116dB");
+        asusSonar.setPrice(52.3f);
 
         System.out.println("");
         System.out.println("Primera Tarjeta de sonido:");
-        System.out.println(asusSonar.getId());
-        System.out.println(asusSonar.getBrand());
-        System.out.println(asusSonar.getModel());
-        System.out.println(asusSonar.getConnector());
-        System.out.println(asusSonar.getAmplification());
-        System.out.println(asusSonar.getSnr());
+        System.out.println("ID: " + asusSonar.getId());
+        System.out.println("MARCA: " + asusSonar.getBrand());
+        System.out.println("MODELO: " + asusSonar.getModel());
+        System.out.println("CONECTOR: " + asusSonar.getConnector());
+        System.out.println("AMPLIFICACION: " + asusSonar.getAmplification());
+        System.out.println("SNR: " + asusSonar.getSnr());
+        System.out.println("PRECIO: " + asusSonar.getPrice());
 
         /**
          * Creacion de un objeto con la clase Recorder
@@ -229,12 +249,13 @@ public class Main {
 
         System.out.println("");
         System.out.println("Primera Grabadora:");
-        System.out.println(lgRecorder.getId());
-        System.out.println(lgRecorder.getBrand());
-        System.out.println(lgRecorder.getModel());
-        System.out.println(lgRecorder.getSize());
-        System.out.println(lgRecorder.getNumRevolutions());
-        System.out.println(lgRecorder.getOpticalUnit());
+        System.out.println("ID: " + lgRecorder.getId());
+        System.out.println("MARACA: " + lgRecorder.getBrand());
+        System.out.println("MODELO: " + lgRecorder.getModel());
+        System.out.println("TAMAÑO: " + lgRecorder.getSize());
+        System.out.println("NUMERO DE REVOLUCIONES: " + lgRecorder.getNumRevolutions());
+        System.out.println("UNIDAD OPTICA: " + lgRecorder.getOpticalUnit());
+        System.out.println("PRECIO: " + lgRecorder.getPrice());
 
 
         /**
@@ -326,6 +347,14 @@ public class Main {
         System.out.println(tecens.getConnection());
         System.out.println(tecens.getDecibels());
         System.out.println(tecens.getSize());
+
+        SetupPC setupPC = new SetupPC();
+        setupPC.setId("02x85p");
+        setupPC.setProcessor(amd);
+        setupPC.setMotherBoard(asus);
+
+        System.out.println(setupPC.getProcessor().getBrand());
+        System.out.println((setupPC.getMotherBoard().getBrand()));
 
     }
 }

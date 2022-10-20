@@ -43,7 +43,7 @@ public class Case {
     }
     public void setNumFans(Integer numFans){this.numFans = numFans;}
 
-    public String getFormFactorMaterial(){
+    public String getFormFactor(){
         return formFactor;
     }
     public void setFormFactor(String name){this.formFactor = formFactor;}
