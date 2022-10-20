@@ -41,7 +41,7 @@ public class Processor {
     }
 
     public String getSpeed(){return speed;}
-    public void setSpeed (String model){this.speed = speed;}
+    public void setSpeed (String speed){this.speed = speed;}
 
     public String getMemory(){
         return memory;

@@ -26,7 +26,7 @@ public class MotherBoard {
         this.brand = brand;
     }
 
-    public Integer getNumPorts(){return numPorts;};
+    public Integer getNumPorts(){return numPorts;}
     public void setNumPorts(Integer numPorts){this.numPorts = numPorts;}
 
     public String getModel(){return model;}

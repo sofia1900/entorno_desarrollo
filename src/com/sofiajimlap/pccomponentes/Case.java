@@ -34,7 +34,7 @@ public class Case {
     public String getModel(){
         return model;
     }
-    public void setModel(String brand){
+    public void setModel(String model){
         this.model = model;
     }
 
@@ -46,7 +46,7 @@ public class Case {
     public String getFormFactor(){
         return formFactor;
     }
-    public void setFormFactor(String name){this.formFactor = formFactor;}
+    public void setFormFactor(String formFactor){this.formFactor = formFactor;}
 
     public String getSize(){
         return size;

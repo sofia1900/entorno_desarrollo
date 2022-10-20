@@ -35,7 +35,7 @@ public class HardDisk {
     public String getModel(){
         return model;
     }
-    public void setModel(String brand){
+    public void setModel(String model){
         this.model = model;
     }
 

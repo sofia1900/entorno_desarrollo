@@ -207,6 +207,7 @@ public class Main {
         System.out.println("ID: " + msiGeForce.getId());
         System.out.println("MARCA: " + msiGeForce.getBrand());
         System.out.println("MODELO: " + msiGeForce.getModel());
+        System.out.println("TIPO: " + msiGeForce.getType());
         System.out.println("MEMORIA: " + msiGeForce.getMemory());
         System.out.println("VELOCIDAD DE RELOJ: " + msiGeForce.getClockSpeed());
         System.out.println("TIPO DE MEMORIA: " + msiGeForce.getMemoryType());
@@ -246,6 +247,7 @@ public class Main {
         lgRecorder.setSize("141 mm x 136,5 mm x 14 mm");
         lgRecorder.setNumRevolutions(8);
         lgRecorder.setOpticalUnit("DVD±RW");
+        lgRecorder.setPrice(63.98f);
 
         System.out.println("");
         System.out.println("Primera Grabadora:");
@@ -270,16 +272,18 @@ public class Main {
         samsungLC.setScreenForm("Curva");
         samsungLC.setUpdateFrequency("144Hz");
         samsungLC.setAntirreflective(true);
+        samsungLC.setPrice(148.0f);
 
         System.out.println("");
         System.out.println("Primer Monitor:");
-        System.out.println(samsungLC.getId());
-        System.out.println(samsungLC.getBrand());
-        System.out.println(samsungLC.getModel());
-        System.out.println(samsungLC.getSize());
-        System.out.println(samsungLC.getScreenForm());
-        System.out.println(samsungLC.getUpdateFrequency());
-        System.out.println(samsungLC.getAntirreflective());
+        System.out.println("ID: " + samsungLC.getId());
+        System.out.println("MARCA: " + samsungLC.getBrand());
+        System.out.println("MODELO: " + samsungLC.getModel());
+        System.out.println("TAMAÑO: " + samsungLC.getSize());
+        System.out.println("FORMA: " + samsungLC.getScreenForm());
+        System.out.println("FRECUENCIA DE ACTUALIZACION: " + samsungLC.getUpdateFrequency());
+        System.out.println("ANTIRREFLECTANTE: " + samsungLC.getAntirreflective());
+        System.out.println("PRECIO: " + samsungLC.getPrice());
 
         /**
          * Creacion de un objeto con la clase Keyboard
@@ -292,16 +296,18 @@ public class Main {
         equipKeyb.setType("mecánico");
         equipKeyb.setColor("Cherry Blue");
         equipKeyb.setConnectivity("USB");
+        equipKeyb.setPrice(15.20f);
 
 
         System.out.println("");
         System.out.println("Primer teclado:");
-        System.out.println(equipKeyb.getId());
-        System.out.println(equipKeyb.getBrand());
-        System.out.println(equipKeyb.getModel());
-        System.out.println(equipKeyb.getType());
-        System.out.println(equipKeyb.getColor());
-        System.out.println(equipKeyb.getConnectivity());
+        System.out.println("ID: " + equipKeyb.getId());
+        System.out.println("MARCA: " + equipKeyb.getBrand());
+        System.out.println("MODELO: " + equipKeyb.getModel());
+        System.out.println("TIPO: " + equipKeyb.getType());
+        System.out.println("COLOR: " + equipKeyb.getColor());
+        System.out.println("CONECTIVIDAD: " + equipKeyb.getConnectivity());
+        System.out.println("PRECIO: " + equipKeyb.getPrice());
 
         /**
          * Creacion de un objeto con la clase ComputerMouse
@@ -314,47 +320,57 @@ public class Main {
         rapoo.setType("normal");
         rapoo.setConnectivity("Inalámbrico");
         rapoo.setNumKeys(3);
+        rapoo.setPrice(10.59f);
 
 
         System.out.println("");
         System.out.println("Primer ratón:");
-        System.out.println(rapoo.getId());
-        System.out.println(rapoo.getBrand());
-        System.out.println(rapoo.getModel());
-        System.out.println(rapoo.getType());
-        System.out.println(rapoo.getConnectivity());
-        System.out.println(rapoo.getNumKeys());
+        System.out.println("ID: " + rapoo.getId());
+        System.out.println("MARCA: " + rapoo.getBrand());
+        System.out.println("MODELO: " + rapoo.getModel());
+        System.out.println("TIPO: " + rapoo.getType());
+        System.out.println("CONECTIVIDAD: " + rapoo.getConnectivity());
+        System.out.println("NUMERO DE TECLAS: " + rapoo.getNumKeys());
+        System.out.println("PRECIO: " + rapoo.getPrice());
 
 
         /**
          * Creacion de un objeto con la clase Speakers
          */
 
-        Speakers tecens = new Speakers();
-        tecens.setId(1);
-        tecens.setBrand("Tacens Anima");
-        tecens.setModel("AS1");
-        tecens.setConnection("USB");
-        tecens.setDecibels(70);
-        tecens.setSize("40 x 40");
+        Speakers tacens = new Speakers();
+        tacens.setId(1);
+        tacens.setBrand("Tacens Anima");
+        tacens.setModel("AS1");
+        tacens.setConnection("USB");
+        tacens.setDecibels(70);
+        tacens.setSize("40 x 40");
+        tacens.setPrice(8.90f);
 
 
         System.out.println("");
         System.out.println("Primer altavoz:");
-        System.out.println(tecens.getId());
-        System.out.println(tecens.getBrand());
-        System.out.println(tecens.getModel());
-        System.out.println(tecens.getConnection());
-        System.out.println(tecens.getDecibels());
-        System.out.println(tecens.getSize());
+        System.out.println("ID: " + tacens.getId());
+        System.out.println("MARCA: " + tacens.getBrand());
+        System.out.println("MODELO: " + tacens.getModel());
+        System.out.println("CONEXION: " + tacens.getConnection());
+        System.out.println("DECIBELIOS: " + tacens.getDecibels());
+        System.out.println("TAMAÑO: " + tacens.getSize());
+        System.out.println("PRECIO: " + tacens.getPrice());
+
+        /**
+         * SETUP PC
+         */
 
         SetupPC setupPC = new SetupPC();
         setupPC.setId("02x85p");
         setupPC.setProcessor(amd);
         setupPC.setMotherBoard(asus);
 
-        System.out.println(setupPC.getProcessor().getBrand());
-        System.out.println((setupPC.getMotherBoard().getBrand()));
+        System.out.println("");
+        System.out.println("COMPONENTES ELEGIDOS");
+        System.out.println("Marca PROCESADOR: " + setupPC.getProcessor().getBrand());
+        System.out.println("Marca PLACA BASE: " + setupPC.getMotherBoard().getBrand());
 
     }
 }

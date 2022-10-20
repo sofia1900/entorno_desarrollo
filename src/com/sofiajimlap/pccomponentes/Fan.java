@@ -35,7 +35,7 @@ public class Fan {
     public String getModel(){
         return model;
     }
-    public void setModel(String brand){this.model = model;}
+    public void setModel(String model){this.model = model;}
 
     public String getSize(){
         return size;
@@ -46,7 +46,7 @@ public class Fan {
     public void setNoiseLevel(String noiseLevel){this.noiseLevel = noiseLevel;}
 
     public String getSupportType (){return supportType;}
-    public void setSupportType(String noiseLevel){this.supportType = supportType;}
+    public void setSupportType(String supportType){this.supportType = supportType;}
 
     public Float getPrice(){
         return price;
