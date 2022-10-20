@@ -1,6 +1,6 @@
 package com.sofiajimlap.pccomponentes;
 
-public class AudioRecorder {
+public class Recorder {
 
     /**
      * Atributos, propiedades, variables, estado

@@ -8,8 +8,8 @@ public class Case {
     private Integer id;
     private String brand;
     private String model;
-    private String name;
-    private String material;
+    private Integer numFans;
+    private String formFactor;
     private String size;
 
     /**
@@ -37,15 +37,15 @@ public class Case {
         this.model = model;
     }
 
-    public String getName(){
-        return name;
+    public Integer getNumFans(){
+        return numFans;
     }
-    public void setName(String name){this.name = name;}
+    public void setNumFans(Integer numFans){this.numFans = numFans;}
 
-    public String getMaterial(){
-        return material;
+    public String getFormFactorMaterial(){
+        return formFactor;
     }
-    public void setMaterial(String name){this.material = material;}
+    public void setFormFactor(String name){this.formFactor = formFactor;}
 
     public String getSize(){
         return size;

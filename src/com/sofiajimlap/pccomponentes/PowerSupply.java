@@ -11,7 +11,7 @@ public class PowerSupply {
     private String model;
     private String power;
     private String quality;
-    private String connector;
+
 
     /**
      * Métodos
@@ -47,10 +47,5 @@ public class PowerSupply {
         return quality;
     }
     public void setQuality(String quality){this.quality = quality;}
-
-    public String getConnector(){
-        return connector;
-    }
-    public void setConnector(String connector){this.connector = connector;}
 
 }

@@ -9,7 +9,7 @@ public class SoundCard {
     private Integer id;
     private String brand;
     private String model;
-    private Integer numConnectors;
+    private String connector;
     private String amplification;
     private String snr;
 
@@ -36,8 +36,8 @@ public class SoundCard {
     }
     public void setModel(String brand){this.model = model;}
 
-    public Integer getNumConnectors () {return numConnectors;}
-    public void setNumConnectors (Integer numConnectors){this.numConnectors = numConnectors;}
+    public String getConnector () {return connector;}
+    public void setconnector (String numConnectors){this.connector = connector;}
 
     public String getAmplification(){
         return amplification;

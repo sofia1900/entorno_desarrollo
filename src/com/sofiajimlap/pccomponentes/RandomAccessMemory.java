@@ -11,7 +11,7 @@ public class RandomAccessMemory {
     private String model;
     private String capacity;
     private String speed;
-    private Integer numCycles;
+    private Integer latency;
 
 
     /**
@@ -53,11 +53,9 @@ public class RandomAccessMemory {
         this.speed = speed;
     }
 
-    public Integer getNumCycles(){
-        return numCycles;
+    public Integer getLatency(){
+        return latency;
     }
-    public void setNumCycles(Integer brand){
-        this.numCycles = numCycles;
-    }
+    public void setLatency(Integer latency){this.latency = latency;}
 
 }
