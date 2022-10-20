@@ -37,7 +37,7 @@ public class SoundCard {
     public void setModel(String brand){this.model = model;}
 
     public String getConnector () {return connector;}
-    public void setconnector (String numConnectors){this.connector = connector;}
+    public void setConnector (String numConnectors){this.connector = connector;}
 
     public String getAmplification(){
         return amplification;

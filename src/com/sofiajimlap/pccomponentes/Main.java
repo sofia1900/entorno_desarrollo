@@ -202,7 +202,7 @@ public class Main {
         asusSonar.setId(1);
         asusSonar.setBrand("Asus");
         asusSonar.setModel("Xonar SE");
-        asusSonar.setconnector("PCIe");
+        asusSonar.setConnector("PCIe");
         asusSonar.setAmplification(" 300ohm");
         asusSonar.setSnr("116dB");
 
