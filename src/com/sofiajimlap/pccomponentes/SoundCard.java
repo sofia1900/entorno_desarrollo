@@ -12,6 +12,7 @@ public class SoundCard {
     private String connector;
     private String amplification;
     private String snr;
+    private Float price;
 
     /**
      * Métodos
@@ -50,5 +51,12 @@ public class SoundCard {
         return snr;
     }
     public void setSnr(String snr){this.snr = snr;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 
 }

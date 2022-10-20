@@ -12,6 +12,7 @@ public class Recorder {
     private String size;
     private Integer numRevolutions;
     private String opticalUnit;
+    private Float price;
 
     /**
      * Métodos
@@ -53,5 +54,12 @@ public class Recorder {
     }
     public void setOpticalUnit(String opticalUnit){
         this.opticalUnit = opticalUnit;
+    }
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
     }
 }

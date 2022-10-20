@@ -11,6 +11,7 @@ public class Case {
     private Integer numFans;
     private String formFactor;
     private String size;
+    private Float price;
 
     /**
      * Métodos
@@ -51,4 +52,11 @@ public class Case {
         return size;
     }
     public void setSize(String size){this.size = size;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 }

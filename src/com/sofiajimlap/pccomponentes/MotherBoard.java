@@ -10,6 +10,7 @@ public class MotherBoard {
     private String model;
     private Integer numPorts;
     private String size;
+    private Float price;
 
     /**
      * Metodos
@@ -35,4 +36,11 @@ public class MotherBoard {
         return size;
     }
     public void setSize(String size) {this.size = size;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 }

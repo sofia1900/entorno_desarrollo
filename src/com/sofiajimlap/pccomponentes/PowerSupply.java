@@ -11,6 +11,7 @@ public class PowerSupply {
     private String model;
     private String power;
     private String quality;
+    private Float price;
 
 
     /**
@@ -47,5 +48,12 @@ public class PowerSupply {
         return quality;
     }
     public void setQuality(String quality){this.quality = quality;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 
 }

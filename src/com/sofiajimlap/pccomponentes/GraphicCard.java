@@ -13,6 +13,7 @@ public class GraphicCard {
     private String memory;
     private String clockSpeed;
     private String memoryType;
+    private Float price;
 
 
     /**
@@ -45,4 +46,11 @@ public class GraphicCard {
 
     public String getMemoryType(){return memoryType;}
     public void setMemoryType (String memoryType){this.memoryType = memoryType;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 }

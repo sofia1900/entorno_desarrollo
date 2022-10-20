@@ -13,6 +13,7 @@ public class Monitor {
     private String screenForm;
     private String updateFrequency;
     private Boolean antirreflective;
+    private Float price;
 
     /**
      * Métodos
@@ -60,5 +61,12 @@ public class Monitor {
 
     public Boolean getAntirreflective(){return antirreflective;}
     public void setAntirreflective (Boolean antirreflective) {this.antirreflective = antirreflective;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 
 }

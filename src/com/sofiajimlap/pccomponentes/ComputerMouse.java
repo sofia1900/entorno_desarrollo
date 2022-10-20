@@ -12,6 +12,7 @@ public class ComputerMouse {
     private String type;
     private String connectivity;
     private Integer numKeys;
+    private Float price;
 
     /**
      * Métodos
@@ -34,5 +35,12 @@ public class ComputerMouse {
 
     public Integer getNumKeys(){return numKeys;}
     public void setNumKeys(Integer numKeys){this.numKeys = numKeys;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 
 }

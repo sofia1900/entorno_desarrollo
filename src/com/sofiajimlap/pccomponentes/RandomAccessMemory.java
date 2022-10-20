@@ -12,6 +12,7 @@ public class RandomAccessMemory {
     private String capacity;
     private String speed;
     private Integer latency;
+    private Float price;
 
 
     /**
@@ -57,5 +58,12 @@ public class RandomAccessMemory {
         return latency;
     }
     public void setLatency(Integer latency){this.latency = latency;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 
 }

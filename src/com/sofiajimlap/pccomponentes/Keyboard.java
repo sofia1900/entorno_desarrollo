@@ -12,6 +12,7 @@ public class Keyboard {
     private String type;
     private String color;
     private String connectivity;
+    private Float price;
 
     /**
      * Métodos
@@ -43,5 +44,10 @@ public class Keyboard {
     public String getConnectivity(){return connectivity;}
     public void setConnectivity(String connectivity){this.connectivity = connectivity;}
 
-
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 }

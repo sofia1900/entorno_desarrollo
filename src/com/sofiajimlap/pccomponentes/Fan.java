@@ -12,7 +12,7 @@ public class Fan {
     private String size;
     private String noiseLevel;
     private String supportType;
-
+    private Float price;
 
     /**
      * Métodos
@@ -47,4 +47,11 @@ public class Fan {
 
     public String getSupportType (){return supportType;}
     public void setSupportType(String noiseLevel){this.supportType = supportType;}
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
+    }
 }

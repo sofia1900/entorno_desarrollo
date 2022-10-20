@@ -12,6 +12,7 @@ public class Speakers {
     private String connection;
     private Integer decibels;
     private String size;
+    private Float price;
 
 
     /**
@@ -52,5 +53,12 @@ public class Speakers {
     }
     public void setSize(String size){
         this.size = size;
+    }
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
     }
 }

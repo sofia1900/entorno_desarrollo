@@ -11,6 +11,7 @@ public class Processor {
     private Integer numNucleus;
     private String speed;
     private String memory;
+    private Float price;
 
     /**
      * Metodos, funciones, comportamiento
@@ -47,6 +48,13 @@ public class Processor {
     }
     public void setMemory(String memory){
         this.memory = memory;
+    }
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
     }
 
 }

@@ -11,6 +11,7 @@ public class HardDisk {
     private String model;
     private String type;
     private String capacity;
+    private Float price;
 
 
     /**
@@ -50,5 +51,12 @@ public class HardDisk {
     }
     public void setCapacity(String capacity){
         this.capacity = capacity;
+    }
+
+    public Float getPrice(){
+        return price;
+    }
+    public void setPrice(Float price){
+        this.price = price;
     }
 }
